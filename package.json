@@ -1,0 +1,33 @@
+{
+  "name": "mongo-mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "4.1.2",
+    "npm": "3.5.2"
+  },
+  "scripts": {
+    "start": "npm run production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathonengelien/mongo-mongoose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathonengelien/mongo-mongoose/issues"
+  },
+  "homepage": "https://github.com/jonathonengelien/mongo-mongoose#readme",
+  "dependencies": {
+    "dot-env": "0.0.1",
+    "dotenv": "^6.0.0",
+    "express": "^4.13.3",
+    "sequelize": "^4.38.0",
+    "mongoose": "5.2.4",
+    "cheerio": "1.0.0-rc.2",
+    "body-parser": "1.18.3"
+  }
+}
