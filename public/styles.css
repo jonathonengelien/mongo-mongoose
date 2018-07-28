@@ -1,5 +1,22 @@
-<style>
-body { background-color: #F2F6D0 }
+body { 
+  background-color: rgb(227, 243, 250);
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: url("http://aiaportland.org/wp-content/uploads/2017/11/langolo-estate-winery_Lever-Architecture_MERIT_300dpi-e1509571864202.jpg");
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.1em;
+}
+
+.wide-picture {
+  width: 100%;
+  margin: 0;
+}
+
 #wrapper {
   width: 960px;
   margin-left: auto;
@@ -29,4 +46,3 @@ textarea {
   height: 200px;
   font-size: 18px;
 }
-</style>
